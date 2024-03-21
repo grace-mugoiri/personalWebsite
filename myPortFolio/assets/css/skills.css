@@ -1,0 +1,86 @@
+:root {
+    --soft-purple: #6c5ce7;
+    --soft-yellow: #f39c12;
+  }
+
+body {
+  background-color: #f7f7f7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: linear-gradient(to right, var(--soft-yellow), var(--soft-purple));
+  padding: 1rem;
+}
+  
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+  
+.nav-link {
+  color: #333;
+  margin-right: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+  
+.nav-link:hover {
+  color: var(--soft-purple);
+}
+
+.container-md {
+  padding: 2rem;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
+}
+
+section {
+  color: #333;
+  background-color: #f7f7f7;
+  padding: 2rem 0;
+}
+  
+p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.schools a{
+  color: var(--soft-purple);
+  text-decoration: none;
+
+}
+.certs {
+  color: var(--soft-purple);
+  text-decoration: none;
+}
+
+.certs:hover,
+.schools a:hover {
+  color: #f39c12;
+}
+  
+ul {
+    margin-left: 2rem;
+    padding-left: 1rem;
+}
+  
+li {
+  color: #555;
+  line-height: 1.6;
+}
+
+footer {
+  background: linear-gradient(to right, var(--soft-yellow), var(--soft-purple));
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+  
